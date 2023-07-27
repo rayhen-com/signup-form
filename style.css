@@ -1,0 +1,28 @@
+@font-face 
+{ 
+font-family: "Pulsar";  
+src: url("/fonts/Pulsar-Original.otf")format("woff2"); 
+}
+
+body {
+    margin: 0px;
+}
+
+#container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+#left-side {
+    width: 40%;
+    background-image: url(/images/background.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(109, 228, 146);
+    background-position: center;
+}
+
+#right-side {
+    width: 60%;
+}
