@@ -16,7 +16,7 @@ body {
 
 #left-side {
     width: 40%;
-    background-image: url(./images/background.svg);
+    background-image: url("./images/background.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-color: rgb(109, 228, 146);
