@@ -26,7 +26,7 @@ body {
 
 #right-side {
     width: 60%;
-    padding: 10px 50px;
+    padding: 10px 150px 10px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,7 +41,7 @@ h1 {
 p,
 legend {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .italic {
@@ -81,14 +81,43 @@ form {
 }
 
 input[type="submit"] {
-    background-color: rgb(140, 225, 153);
+    background-color: rgb(114, 180, 124);
+    color: rgb(255, 255, 255);
     padding: 10px 40px;
     border: 0;
     border-radius: 7px;
 }
 
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
 input {
+    outline: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
     border: 1px solid rgb(235, 235, 235);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input:focus {
+    box-shadow:1px 1px 10px 1px rgba(1,1,1,0.2);
+    border: 1px solid rgb(129, 178, 129);
+}
+
+input:user-invalid {
+    border: 1px solid rgb(255, 0, 0);
+
+}
+
+input:focus:invalid {
+    border: 1px solid rgb(255, 0, 0);
+}
+
+
+
+a {
+    color: rgb(144, 186, 130);
+    text-decoration: none;
 }
